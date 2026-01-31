@@ -1,17 +1,25 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Montserrat-Bold.woff2') format('woff2');
+}
+
 @theme {
   --color-primary: #ea7e24;
   --color-background-light: #f8fafc;
   --color-background-dark: #071044;
 
   --font-display: Montserrat, sans-serif;
-}
-
-.material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
 }
